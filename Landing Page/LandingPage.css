@@ -169,6 +169,7 @@ a{
 }
 .services{
     width: 1300px;
+    height: 700px;
     margin-left: 50px;
 }
 #help{
@@ -181,15 +182,12 @@ a{
 }
 .servicesDiv{
     width: 300px;
-    height: 520px;
+    height: 550px;
     display: inline-block;
     vertical-align: top;
     margin-bottom: 30px;
     margin-right: 20px;
     border: 1px solid black;
-}
-.servicesDiv p{
-    margin-bottom: 10px;
 }
 .servicesDiv h1{
     color: #78938A;
@@ -202,11 +200,7 @@ a{
     text-decoration: none;
     color: #272727;
 }
-.servicesDiv a:hover{
-    font-size: 22px;
-    background-color: #F1DDBF;
-    text-shadow: 2px 1px #92BA92;
-}
+
 .services p{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -216,7 +210,7 @@ a{
 }
 .picinservices{
     width: 620px;
-    height: 520px;
+    height: 550px;
     background-image: url("Media/dont.avif");
     background-size: cover;
     display: inline-block;
@@ -224,5 +218,9 @@ a{
 }
 .picservices{
     width: 300px;
+}
+.divLink:hover h1{
+    font-size: 42px;
+    text-shadow: 2px 6px #F1DDBF;
 }
 
